@@ -1,8 +1,6 @@
 ====================================LINUX==================================
 
-	  
 -----------------------------------Day2------------------------------------
-
 
 * How give sudo access to created User:
 --> visudo    ctrl + X  and yes Enter
@@ -33,9 +31,7 @@ $locate crontab
 
 *Remote DNS= /etc/resolv.conf
 
-
 -----------------------------------Day3------------------------------------
-
 
 Commands:
 $lsblk: List Available block devices
@@ -91,8 +87,6 @@ chmod 777 install.sh
 ./install.sh or bash install.sh
 
 
-
-
 ================================Terraform==================================
 
 -----------------------------------Day2------------------------------------
@@ -103,15 +97,13 @@ chmod 777 install.sh
 
 INSTALLATION:
 	# Install yum-config-manager to manage your repositories.
-	sudo yum install -y yum-utils
+	- sudo yum install -y yum-utils
 	# Use yum-config-manager to add the official HashiCorp Linux repository.
-	sudo yum-config-manager --add-repo
+	- sudo yum-config-manager --add-repo
 	https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
-	# sudo yum -y install terraform
-	sudo yum -y install terraform
+	- sudo yum -y install terraform
+	- sudo yum -y install terraform
 	[ec2-user@ip-172-31-4-240 ~]$ terraform version
-
-
 
 
 HCL Basics:
