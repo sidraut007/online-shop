@@ -1,2 +1,0 @@
-this file is for qa env only
-we use this for testing purpose only
